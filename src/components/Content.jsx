@@ -18,7 +18,7 @@ const Content = () => {
 
       <div className="mb-16">
         <div className="font-bold uppercase text-teal-600 dark:text-teal-400 text-sm mb-2">Kategori</div>
-        <h2 className="text-3xl font-bold tracking-tight mb-2">Mau belajar apa hari ini?</h2>
+        <h2 className="text-3xl font-bold tracking-tight mb-2 text-slate-900">Mau belajar apa hari ini?</h2>
         <p className="text-lg mb-8 text-slate-500 dark:text-slate-300">Temukan tutorial berdasarkan minatmu.</p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {categories.map((cat, index) => (
@@ -30,7 +30,7 @@ const Content = () => {
               <div className="flex items-center">
                 <p className="text-slate-500 dark:text-slate-300 mt-2 text-sm">{cat.body.split(' ').slice(0, 20).join(' ')}...</p>
                 <span>
-                  <svg className="h-6 w-6 ml-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                  <svg className="h-6 w-6 ml-4" fill="none" viewBox="0 0 24 24" stroke="black" strokeWidth="2">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
                   </svg>
                 </span>
@@ -42,7 +42,7 @@ const Content = () => {
 
       <div>
         <div className="font-bold uppercase text-teal-600 dark:text-teal-400 text-sm mb-2">Update</div>
-        <h2 className="text-3xl font-bold tracking-tight mb-2">Apa yang baru di Petani Kode? 🔥</h2>
+        <h2 className="text-3xl font-bold tracking-tight mb-2 text-slate-900">Apa yang baru di Petani Kode? 🔥</h2>
         <p className="text-lg mb-8 text-slate-500 dark:text-slate-300">Baca artikel terbaru yang masih fresh dan hangat.</p>
         <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4">
           {posts.map(post => (

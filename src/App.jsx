@@ -13,20 +13,20 @@ const Home = () => (
 );
 
 const Kelas = () => (
-  <div className="min-h-screen text-center pt-20 text-2xl text-white">Halaman Kelas</div>
+  <div className="min-h-screen text-center pt-20 text-2xl text-black">Halaman Kelas</div>
 );
 
 const Tutorial = () => (
-  <div className="min-h-screen text-center pt-20 text-2xl text-white">Halaman Tutorial</div>
+  <div className="min-h-screen text-center pt-20 text-2xl text-black">Halaman Tutorial</div>
 );
 
 const Buku = () => (
-  <div className="min-h-screen text-center pt-20 text-2xl text-white">Halaman Buku</div>
+  <div className="min-h-screen text-center pt-20 text-2xl text-black">Halaman Buku</div>
 );
 
 function App() {
   return (
-    <div className="min-h-screen flex flex-col bg-slate-900 text-white">
+    <div className="min-h-screen flex flex-col text-white">
       <Navbar />
       <main className="flex-grow">
         <Routes>
